@@ -19,6 +19,6 @@ contactForm.addEventListener("submit", (event) => {
   const company = String(formData.get("company") || "").trim();
 
   contactForm.reset();
-  formMessage.textContent = `${name}，已记录你的预约意向。请添加微信 kezhui，并备注“肖大侠合作 + ${company}”，方便尽快对接。`;
+  formMessage.textContent = `${name}，已记录你的预约意向。请添加微信 kezhui，并备注“企业AI调研 + ${company}”，方便尽快对接。`;
   formMessage.className = "form-message success";
 });
